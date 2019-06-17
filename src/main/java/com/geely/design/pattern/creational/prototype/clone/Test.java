@@ -34,7 +34,5 @@ public class Test {
         System.out.println(hungrySingleton);
         System.out.println(cloneHungrySingleton);
 
-
-
     }
 }
