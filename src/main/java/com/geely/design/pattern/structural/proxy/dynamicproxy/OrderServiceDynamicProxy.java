@@ -12,6 +12,7 @@ import java.lang.reflect.Proxy;
  */
 public class OrderServiceDynamicProxy implements InvocationHandler {
 
+    // target ; 目标对象，通过构造器注入的
     private Object target;
 
     public OrderServiceDynamicProxy(Object target) {
@@ -19,7 +20,10 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
     }
 
     public Object bind(){
+        // cls ： 目标类的class
         Class cls = target.getClass();
+
+        //这句话表示把被代理对象直接返回！
         return Proxy.newProxyInstance(cls.getClassLoader(),cls.getInterfaces(),this);
     }
 
@@ -27,6 +31,8 @@ public class OrderServiceDynamicProxy implements InvocationHandler {
 
 
     @Override
+    // method : 要被增强的方法对象
+    // args：具体的method的参数
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         Object argObject = args[0];
         beforeMethod(argObject);
