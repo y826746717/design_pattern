@@ -1,7 +1,8 @@
 package com.geely.design.pattern.behavioral.templatemethod;
 
 /**
- * Created by geely
+ *  写了构造器，是为了满足不同的前端课程，比如有的前端课程需要写手记
+ *  而有的前端课程并不需要制作手机
  */
 public class FECourse extends ACourse {
     private boolean needWriteArticleFlag = false;

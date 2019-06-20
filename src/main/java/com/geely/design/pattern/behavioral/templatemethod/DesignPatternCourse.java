@@ -1,7 +1,7 @@
 package com.geely.design.pattern.behavioral.templatemethod;
 
 /**
- * Created by geely
+ *
  */
 public class DesignPatternCourse extends ACourse {
     @Override
