@@ -1,7 +1,8 @@
 package com.yang.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 具体的装饰器1
+ * 在构造器中把被装饰的对象包装进去
  */
 public class SausageDecorator extends AbstractDecorator{
     public SausageDecorator(ABattercake aBattercake) {

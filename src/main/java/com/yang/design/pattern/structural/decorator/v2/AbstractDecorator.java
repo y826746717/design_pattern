@@ -1,7 +1,8 @@
 package com.yang.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 抽象的装饰器
+ * 注意：抽象的装饰器必须继承抽象的实体类
  */
 public abstract class AbstractDecorator extends ABattercake {
     private ABattercake aBattercake;

@@ -1,7 +1,7 @@
 package com.yang.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 具体的装饰器2
  */
 public class EggDecorator extends AbstractDecorator {
     public EggDecorator(ABattercake aBattercake) {

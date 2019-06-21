@@ -1,7 +1,7 @@
 package com.yang.design.pattern.structural.decorator.v2;
 
 /**
- * Created by geely
+ * 具体的实体类
  */
 public class Battercake extends ABattercake {
     @Override

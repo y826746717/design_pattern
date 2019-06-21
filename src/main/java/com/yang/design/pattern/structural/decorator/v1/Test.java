@@ -1,7 +1,8 @@
 package com.yang.design.pattern.structural.decorator.v1;
 
 /**
- * Created by geely
+ * 这种写法的缺点是： 只能加一个，如果我需要加很多个呢？那么很显然这种写法就不满足需求了
+ * 另外会发生类爆炸！
  */
 public class Test {
     public static void main(String[] args) {

@@ -1,8 +1,7 @@
 package com.yang.design.pattern.structural.adapter.objectadapter;
 
-
 /**
- * Created by geely
+ *
  */
 public class ConcreteTarget implements Target {
     @Override

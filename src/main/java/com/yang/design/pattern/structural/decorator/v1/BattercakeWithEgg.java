@@ -1,7 +1,7 @@
 package com.yang.design.pattern.structural.decorator.v1;
 
 /**
- * Created by geely
+ *
  */
 public class BattercakeWithEgg extends Battercake {
     @Override

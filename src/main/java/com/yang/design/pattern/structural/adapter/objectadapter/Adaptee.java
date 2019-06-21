@@ -1,7 +1,7 @@
 package com.yang.design.pattern.structural.adapter.objectadapter;
 
 /**
- * Created by geely
+ *
  */
 public class Adaptee {
     public void adapteeRequest(){
