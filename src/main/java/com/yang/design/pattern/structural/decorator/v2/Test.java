@@ -1,8 +1,7 @@
 package com.yang.design.pattern.structural.decorator.v2;
 
-/**ceshiceshi ceshi
+/**
  *
- * a
  */
 public class Test {
     public static void main(String[] args) {
